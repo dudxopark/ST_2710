@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EISCStudioProject version="3.00">
+    <Compile BUILDTYPE="executable" CC="ae32000-elf-gcc" AS="ae32000-elf-as" LD="ae32000-elf-ld" AR="ae32000-elf-ar" OBJDUMP="ae32000-elf-objdump" OBJCOPY="ae32000-elf-objcopy" CFLAGS="-fno-strength-reduce" LDFLAGS="-Wall -nostartfiles -lgcc -lc -lm -Wl,--warn-common " ASFLAGS="" ARFLAGS="-rcv" DISFLAGS="-dzShxl" OUTPUTDIR="output/" OBJDIR="obj/" DebugInfo="1" Wall="1" OPTLEVEL="0" OUTPUTFILE="Target.elf" />
+    <Directory>
+        <INCDIR Name="C:/ADChips/SDK/include" />
+    </Directory>
+    <Files>
+        <Source Name="P10_3940.c" />
+        <Source Name="adStarInit.c" />
+        <Source Name="startup_adstar.s" />
+        <Source Name="main.c" />
+        <Source Name="CircularQueue.c" />
+        <Source Name="Common.c" />
+        <Source Name="Event.c" />
+        <Source Name="U2429.c" />
+        <Source Name="ST_2710_interrupt.c" />
+        <Source Name="ADF4351.c" />
+        <Source Name="ST_2710_GUI.c" />
+        <Source Name="ST_2710.c" />
+        <Source Name="ymodem.c" />
+        <Source Name="LCDCtrl.c" />
+        <Source Name="Key.c" />
+        <Source Name="Cpu.c" />
+        <Source Name="Util.c" />
+        <Source Name="ResourceManager.c" />
+        <Source Name="ST_2710_GUI_Comm.c" />
+        <Source Name="ST_2710_GUI_Manager.c" />
+        <Source Name="ScrollEdit.c" />
+        <Source Name="ST_2710_GUI_Amp.c" />
+        <Source Name="ST_2710_GUI_VHF.c" />
+        <Source Name="ST_2710_GUI_Radio.c" />
+        <Source Name="ChannelScanner.c" />
+        <Source Name="FrequencyScanner.c" />
+        <Header Name="C:/ADChips/SDK/include/adstar.h" />
+        <Header Name="C:/ADChips/SDK/include/typedef.h" />
+        <Header Name="P10_3940.h" />
+        <Header Name="CircularQueue.h" />
+        <Header Name="Common.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/adc.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/adStarInit.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/bitmapfont.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/cacheutil.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/crtc.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/dma.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/error.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/gpio.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/interrupt.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/nandctrl.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/pmu.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/sdcard.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/serialflash.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/soundmixer.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/spi.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/timer.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/twi.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/uart.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/unicode_codec.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/usb.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/util.h" />
+        <Header Name="C:/ADChips/SDK/include/adstar/watchdogtimer.h" />
+        <Header Name="Event.h" />
+        <Header Name="Text.h" />
+        <Header Name="U2429.h" />
+        <Header Name="ST_2710_interrupt.h" />
+        <Header Name="ADF4351.h" />
+        <Header Name="ST_2710_GUI.h" />
+        <Header Name="ST_2710.h" />
+        <Header Name="ST_2710_Global.h" />
+        <Header Name="ymodem.h" />
+        <Header Name="LCDCtrl.h" />
+        <Header Name="Key.h" />
+        <Header Name="Cpu.h" />
+        <Header Name="Util.h" />
+        <Header Name="font.h" />
+        <Header Name="ResourceManager.h" />
+        <Header Name="Resource.h" />
+        <Header Name="ST_2710_GUI_Comm.h" />
+        <Header Name="ST_2710_GUI_Manager.h" />
+        <Header Name="ScrollEdit.h" />
+        <Header Name="ST_2710_GUI_Amp.h" />
+        <Header Name="ST_2710_GUI_VHF.h" />
+        <Header Name="ST_2710_GUI_Radio.h" />
+        <Header Name="ChannelScanner.h" />
+        <Header Name="FrequencyScanner.h" />
+        <LinkScript Name="C:/ADChips/SDK/startup/adstar_ram.ld" />
+        <Library Name="C:/ADChips/SDK/lib/libadStar.a" />
+        <Library Name="C:/ADChips/SDK/lib/libjpeg.a" />
+        <LastOpenFile Name="ST_2710_GUI.c" Line="729" />
+    </Files>
+    <Event cmd="MakeBin.bat" desc="" enable="true" />
+    <Debug>
+        <Argument Name="" />
+        <UseGlobalOption Name="true" />
+        <breakpoint Name="cpu.c *,58" />
+        <breakpoint Name="ST_2710_GUI_Comm.c *,115" />
+    </Debug>
+</EISCStudioProject>
